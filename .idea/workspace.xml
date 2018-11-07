@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23928ac4-02c4-4a0c-9d4b-e107be30a22f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,30 +54,51 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="2" />
           <entry key="md" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="2" />
           <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="3" />
           <entry key="md" value="144" />
-          <entry key="txt" value="12" />
+          <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="3" />
           <entry key="Markdown" value="144" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,8 +106,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -200,7 +223,7 @@
       <workItem from="1541593006545" duration="475000" />
       <workItem from="1541593569328" duration="512000" />
       <workItem from="1541594115658" duration="1973000" />
-      <workItem from="1541598688014" duration="851000" />
+      <workItem from="1541598688014" duration="1111000" />
     </task>
     <task id="LOCAL-00001" summary="Readme Added">
       <created>1541598954286</created>
@@ -209,14 +232,22 @@
       <option name="project" value="LOCAL" />
       <updated>1541598954286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitDuzeltmesi">
+      <created>1541599670439</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541599670439</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3811000" />
+    <option name="totallyTimeSpent" value="4071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -236,7 +267,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +304,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Readme Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme Added" />
+    <MESSAGE value="gitDuzeltmesi" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitDuzeltmesi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/todo.js">
@@ -300,10 +332,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
