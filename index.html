@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TO-DO APP</title>
+    <script src="js/todo.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+
+<body class="body" onload="odaklan()">
+<div class="header">
+    To-Do App
+</div>
+<div class="container">
+    <div class="satir">
+        <div class="anaBaslik">
+            <label for="gorevLBL" class="gorevLBL" style="padding-top: 50px !important">Görev Ekle</label>
+            <input class="yazi" name="yazi" type="text" id="eklenecekTodo" onkeydown="keyCode(event)">
+            <span onclick="ekle()" id="btnEkle" class="btn btn-yuvarlak">
+                    + Ekle
+                </span>
+        </div>
+    </div>
+    <div class="satir">
+        <div class="baslik">
+            Yapılacaklar
+        </div>
+        <div class="liste">
+            <ul id="yapilacaklarListe"></ul>
+        </div>
+    </div>
+    <div class="satir">
+        <div class="baslik">
+            YAPILANLAR
+        </div>
+        <div class="liste">
+            <ul id="yapilanlarListe"></ul>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

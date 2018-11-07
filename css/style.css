@@ -1,0 +1,114 @@
+.body{
+    background-color: #043159;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 35px;
+
+}
+
+.header{
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.anaBaslik{
+    text-align: center;
+    background-color: #D82247;
+    
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+    min-height: 700px;
+    background-color: #25CED1;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.satir{
+    width: 100%;
+}
+
+.baslik{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #D82247;
+    text-align: center;
+    font-weight: bold;
+}
+
+.liste{
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.customCheck{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.solaYasla{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.btn{
+    background-color: #043159;
+    color: white;
+    
+}
+
+.btn.btn-yuvarlak{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.btn.yuvarak{
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #D82247;
+    cursor: pointer;
+
+}
+
+.yazi{
+    height: 25px;
+}
+
+.gorevLBL{
+    font-size: 30px;
+}
+
+.sagYasli{
+    float: right;
+}
+
+.fnt-25{
+    font-size: 25px
+}
+
+.yukseklik-35{
+    height: 35px;
+}
+
+.customInput{
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+}
+
+.customInput:hover{
+    background-color: white;
+}
