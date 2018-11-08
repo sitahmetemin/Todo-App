@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.anaBaslik {
+.ana-baslik {
     text-align: center;
     background-color: #D82247;
 
@@ -28,7 +28,7 @@
     box-shadow: 10px 10px 20px black;
 }
 
-.satir {
+.row {
     width: 100%;
 }
 
@@ -49,13 +49,13 @@ ul {
     list-style-type: none;
 }
 
-.customCheck {
+.custom-check {
     width: 25px;
     height: 25px;
     margin-right: 10px;
 }
 
-.solaYasla {
+.sola-yasla {
     position: absolute;
     margin-top: 5px;
     margin-left: 10px;
@@ -88,11 +88,11 @@ ul {
     height: 25px;
 }
 
-.gorevLBL {
+.gorev-lbl {
     font-size: 30px;
 }
 
-.sagYasli {
+.sag-yasli {
     float: right;
 }
 
@@ -104,12 +104,12 @@ ul {
     height: 35px;
 }
 
-.customInput {
+.custom-input {
     background-color: transparent;
     font-size: 18px;
     border: none;
 }
 
-.customInput:hover {
+.custom-input:hover {
     background-color: white;
 }
