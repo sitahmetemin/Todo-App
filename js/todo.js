@@ -25,7 +25,7 @@ window.onload = function () {
         }
     });
 
-//Yapılacaklar listesie ekleyecek fonksiyon
+    //Yapılacaklar listesie ekleyecek fonksiyon
     function ekle() {
         var todo = document.getElementById("eklenecekTodo").value;
 
@@ -48,7 +48,7 @@ window.onload = function () {
         }
     }
 
-//yapılacaklar listesinden yapılanlar listesine aktarma fonksiyonu
+    //yapılacaklar listesinden yapılanlar listesine aktarma fonksiyonu
     function todoDone(e) {
         //inputu deaktif hale getirdim
         e.disabled = true;
@@ -56,7 +56,7 @@ window.onload = function () {
         document.getElementById("yapilanlarListe").appendChild(e.parentElement);
     }
 
-//silme fonksiyonu
+    //silme fonksiyonu
     function todoDel(info) {
         info.parentElement.remove();
     }

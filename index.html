@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <title>TO-DO APP</title>
@@ -8,34 +9,35 @@
 </head>
 
 <body class="body">
-<header class="header">
-    To-Do App UI
-</header>
-<main class="container">
-    <div class="row">
-        <div class="ana-baslik">
-            <label class="gorev-lbl" style="padding-top: 50px !important">Görev Ekle</label>
-            <input class="yazi" placeholder="Görev..." name="yazi" type="text" id="eklenecekTodo"/>
-            <span id="btnEkle" class="btn btn-yuvarlak">+ Ekle</span>
+    <header class="header">
+        To-Do App UI
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="ana-baslik">
+                <label class="gorev-lbl" style="padding-top: 50px !important">Görev Ekle</label>
+                <input class="yazi" placeholder="Görev..." name="yazi" type="text" id="eklenecekTodo" />
+                <span id="btnEkle" class="btn btn-yuvarlak">+ Ekle</span>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="baslik">
-            Yapılacaklar
+        <div class="row">
+            <div class="baslik">
+                Yapılacaklar
+            </div>
+            <div class="liste">
+                <ul id="yapilacaklarListe"></ul>
+            </div>
         </div>
-        <div class="liste">
-            <ul id="yapilacaklarListe"></ul>
+        <div class="row">
+            <div class="baslik">
+                YAPILANLAR
+            </div>
+            <div class="liste">
+                <ul id="yapilanlarListe"></ul>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="baslik">
-            YAPILANLAR
-        </div>
-        <div class="liste">
-            <ul id="yapilanlarListe"></ul>
-        </div>
-    </div>
-</main>
-<script src="js/todo.js"></script>
+    </main>
+    <script src="js/todo.js"></script>
 </body>
+
 </html>
