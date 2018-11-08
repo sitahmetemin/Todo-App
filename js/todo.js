@@ -25,10 +25,6 @@ window.onload = function () {
         }
     });
 
-
-
-
-
 //Yapılacaklar listesie ekleyecek fonksiyon
     function ekle() {
         var todo = document.getElementById("eklenecekTodo").value;
